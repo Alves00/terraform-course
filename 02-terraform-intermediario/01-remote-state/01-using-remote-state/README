@@ -1,0 +1,2 @@
+#comando para puxar as configuracoes de backend de um arquivo externo
+terraform init -backend=true -backend-config="backend.hcl"
